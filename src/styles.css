@@ -1,0 +1,18 @@
+.container{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+.book-card{
+    border: 1px solid lightgray;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 10px 1px lightgray;
+    border-radius: 10px;
+}
+
+.book-card img{
+    width: 80%;
+}
